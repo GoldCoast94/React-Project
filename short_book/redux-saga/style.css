@@ -1,0 +1,35 @@
+.fade-enter, .fade-appear{
+	opacity: 0;
+	font-size: 16px;
+}
+
+.fade-enter-active, .fade-appear-active{
+	opacity: 1;
+	font-size: 30px;
+	transition: all 1s ease-in;
+	color: greenyellow;
+}
+
+.fade-enter-done{
+	opacity: 1;
+	font-size: 30px;
+	color: greenyellow;
+}
+
+.fade-exit{
+	opacity: 1;
+	font-size: 30px;
+	color: greenyellow;
+}
+
+.fade-exit-active{
+	opacity: 0;
+	font-size: 16px;
+	transition: all 1s ease-in;
+	color: greenyellow;
+}
+
+.fade-exit-done{
+	opacity: 0;
+	font-size: 16px;
+}
